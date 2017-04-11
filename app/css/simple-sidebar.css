@@ -1,0 +1,741 @@
+body {
+    overflow-x: hidden;
+}
+nav.sidebar.navbar {
+    border-radius: 0px;
+    border-color: #3b5372;
+}
+#sidebar-wrapper{
+  margin-top: 270px
+}
+nav.sidebar:hover {
+  background-color: #3b5372;
+}
+
+nav.sidebar,
+.main {
+    -webkit-transition: margin 200ms ease-out;
+    -moz-transition: margin 200ms ease-out;
+    -o-transition: margin 200ms ease-out;
+    transition: margin 200ms ease-out;
+}
+/* Add gap to nav and right windows.*/
+
+.main {
+    padding: 10px 10px 0 10px;
+}
+@media (max-width:767px) {
+  /*Allow main to be next to Nav*/
+  .custom-margin{
+    margin-top: 0px!important;
+  }
+  .main {
+      position: absolute;
+      width: calc(100% - 40px);
+      /*keeps 100% minus nav size*/
+      margin-left: 40px;
+      float: right;
+  }
+  #sidebar-wrapper{
+    margin-top: -10px
+  }
+  /*lets nav bar to be showed on mouseover*/
+  nav.sidebar:hover+.main {
+      margin-left: 00px;
+  }
+  /*Center Brand*/
+  nav.sidebar.navbar.sidebar>.container .navbar-brand,
+  .navbar>.container-fluid .navbar-brand {
+      margin-left: 0px;
+  }
+  /*Center Brand*/
+  nav.sidebar .navbar-brand,
+  nav.sidebar .navbar-header {
+      text-align: center;
+      width: 100%;
+      margin-left: 0px;
+  }
+  /*Center Icons*/
+  nav.sidebar a {
+      padding-right: 13px;
+  }
+  /*adds border top to first nav box */
+  nav.sidebar .navbar-nav>li:first-child {
+    background-color: #3b5372;
+      border-top: 1px #3b5372 solid;
+  }
+  /*adds border to bottom nav boxes*/
+  nav.sidebar .navbar-nav>li {
+      border-bottom: 1px #3b5372 solid;
+  }
+  /* Colors/style dropdown box*/
+  nav.sidebar .navbar-nav .open .dropdown-menu {
+      position: static;
+      float: none;
+      width: auto;
+      margin-top: 0;
+      background-color: transparent;
+      border: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+  }
+  /*allows nav box to use 100% width*/
+  nav.sidebar .navbar-collapse,
+  nav.sidebar .container-fluid {
+      padding: 0 0px 0 0px;
+  }
+  /*colors dropdown box text */
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+      color: #777;
+  }
+  /*gives sidebar width/height*/
+  nav.sidebar {
+      width: 200px;
+      margin-left: -180px;
+      float: left;
+      z-index: 8000;
+      margin-bottom: 0px;
+      }
+  /*give sidebar 100% width;*/
+  nav.sidebar li {
+      width: 100%;
+  }
+  /** Setting Backgound of navigation**/
+  nav.sidebar a {
+    background-color: #3b5372;
+      /*padding-right: 13px;*/
+  }
+  nav.sidebar .active>a {
+    background-color: #3b5372!important;
+      /*padding-right: 13px;*/
+  }
+  /* Move nav to full on mouse over*/
+  nav.sidebar:hover {
+    background-color: #3b5372!important;
+      margin-left: 0px;
+  }
+  /*for hiden things when navbar hidden*/
+  .forAnimate {
+      opacity: 0;
+  }
+
+}
+
+/* .....NavBar: Icon only with coloring/layout.....*/
+/*small/medium side display 768px*/
+
+@media (min-width: 768px) {
+    /*Allow main to be next to Nav*/
+    .main {
+        position: absolute;
+        width: calc(100% - 40px);
+        /*keeps 100% minus nav size*/
+        /*margin-left: 40px;*/
+        float: right;
+    }
+
+    /*Center Brand*/
+    nav.sidebar.navbar.sidebar>.container .navbar-brand,
+    .navbar>.container-fluid .navbar-brand {
+        margin-left: 0px;
+    }
+    /*Center Brand*/
+    nav.sidebar .navbar-brand,
+    nav.sidebar .navbar-header {
+      background-color: #3b5372;
+      text-align: center;
+      width: 100%;
+      margin-left: 0px;
+    }
+    /*Center Icons*/
+    nav.sidebar a {
+      background-color: #3b5372;
+        /*padding-right: 13px;*/
+    }
+    nav.sidebar a:hover {
+      background-color: #3b5372!important;
+        /*padding-right: 13px;*/
+    }
+    nav.sidebar .active>a {
+      background-color: #3b5372!important;
+      padding-left: 25px;
+    }
+    nav.sidebar .active>a:hover {
+      background-color: #3b5372!important;
+        /*padding-right: 13px;*/
+    }
+    /*adds border top to first nav box */
+    nav.sidebar .navbar-nav>li:first-child {
+        border-top: 1px #3b5372 solid;
+    }
+    /*adds border to bottom nav boxes*/
+    nav.sidebar .navbar-nav>li {
+        border-bottom: 1px #3b5372 solid;
+    }
+    /* Colors/style dropdown box*/
+    nav.sidebar .navbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    /*allows nav box to use 100% width*/
+    nav.sidebar .navbar-collapse,
+    nav.sidebar .container-fluid {
+        padding: 0 0px 0 0px;
+    }
+    /*colors dropdown box text */
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+        color: #777;
+    }
+    /*gives sidebar width/height*/
+    nav.sidebar {
+        width: 225px;
+        float: left;
+        z-index: 8000;
+        margin-bottom: 0px;
+    }
+    /*give sidebar 100% width;*/
+    nav.sidebar li {
+        width: 100%;
+    }
+
+    /*for hiden things when navbar hidden*/
+    .forAnimate {
+        opacity: 0;
+    }
+}
+
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    /*padding-left: 241px;*/
+}
+
+#emp-info {
+    margin-top: 20px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    margin-right: -241px;
+}
+
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    top: 0;
+    width: 241px;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+    background-color: #3B5372;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #D8D1C7;
+    width: 241px;
+    height: 55px;
+    font-family: ionicons;
+    font-size: 14px;
+}
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+@media(min-width:768px) {
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+    #page-content-wrapper {
+        padding: 20px;
+    }
+    #wrapper.toggled #page-content-wrapper {
+        margin-right: 0;
+    }
+}
+
+#emp-image {
+    float: left;
+    width: 241px;
+    height: 243px;
+}
+
+#emp-personal {
+    float: left;
+    border: 0px;
+    border-right: solid 1px #3B5372;
+}
+
+#emp-info {
+    margin-left: 50px;
+}
+
+#emp-id {
+    margin-left: 225px
+}
+
+#emp-dataTable {
+    margin-left: 225px
+}
+
+#emp-personal td:nth-child(1) {
+    opacity: 100;
+    padding-right: 50px;
+    font-family: LucidaGrande-Bold;
+    font-size: 17px;
+    color: #3B5372;
+    font-weight: bold;
+}
+
+#emp-personal td:nth-child(2) {
+    font-family: LucidaGrande-Bold;
+    font-size: 17px;
+    padding-right: 50px;
+    color: #3B5372;
+    font-family: AppleGothic;
+}
+
+#emp-company td:nth-child(1) {
+    color: #3B5372;
+    font-family: LucidaGrande-Bold;
+    font-size: 17px;
+    font-weight: bold;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#emp-company td:nth-child(2) {
+    font-family: LucidaGrande-Bold;
+    font-size: 17px;
+    padding-right: 50px;
+    color: #3B5372;
+    font-family: AppleGothic;
+}
+
+@media(max-width:1200px) {
+    #emp-personal td:nth-child(1) {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #emp-personal td:nth-child(2) {
+        padding-right: 10px;
+    }
+    #emp-company td:nth-child(1) {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+@media(max-width:950px) {
+    #emp-personal {
+        float: none;
+        border-right: none;
+    }
+    #emp-id {
+        padding-left: 10px
+    }
+}
+
+@media(max-width:642px) {
+    #emp-image {
+        float: none;
+        padding-left: 40px;
+    }
+    #menu-toggle {
+        margin-left: -30px!important;
+        margin-top: 395px!important;
+    }
+    #emp-personal td:nth-child(1) {
+        padding-right: 38px!important;
+    }
+    #line {
+        position: relative!important;
+        margin-top: 0px !important;
+        top: -5px!important;
+    }
+    #emp-info {
+        margin: 0px;
+    }
+    #emp-id {
+        margin: 0px;
+    }
+    #emp-dataTable {
+        margin: 0px;
+    }
+    #emp-profile {
+        position: relative!important;
+        /*margin-top: -65px!important;*/
+    }
+
+    #wrapper {
+        position: relative!important;
+    }
+    #edit {
+        margin-right: 10px!important;
+        /*margin-top: -550px!important;*/
+        margin-top: -280px!important;
+    }
+    #personalData {
+        margin-left: 62px!important;
+        width: 90%;
+    }
+    #formsize {
+        margin-top: 480px;
+        padding-bottom: 0px;
+    }
+    .editable-wrap .editable-controls>input {
+        margin-left: 30px!important;
+    }
+    #emp-personal td {
+        padding-top: 5px!important;
+        padding-bottom: 5px!important;
+    }
+    #emp-company td {
+        padding-top: 5px!important;
+        padding-bottom: 5px!important;
+    }
+    #dashrow {
+        margin-left: 1px!important;
+        margin-right: -1px!important;
+    }
+}
+
+@media(max-width:460px) {
+    #emp-image img {
+        height: 150px!important;
+        width: 150px!important;
+        -webkit-border-radius: 50% !important;
+        -moz-border-radius: 50% !important;
+        border-radius: 50% !important;
+    }
+    #emp-info {
+        margin-top: -100;
+    }
+    #emp-id {
+        margin: 0px autp;
+    }
+    #emp-dataTable {
+        margin: 0px auto;
+    }
+    #line {
+        top: 420px;
+    }
+}
+
+#main {
+    margin-top: 75px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#emp-image img {
+    width: 241px;
+    height: 243px
+}
+
+#menu-toggle {
+    margin-left: -35px;
+    margin-top: 340px
+}
+
+#emp-dataTable td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sidebar-nav li.active {
+    padding-left: 70px;
+    transition: 0.8s;
+}
+
+#line {
+    position: fixed;
+    right: 0;
+    margin-top: 267px;
+    left: 0;
+    border-top: solid 2px #D8D1C7;
+}
+
+@media(max-width:767px) {
+    #menu-toggle {
+        margin-left: 0px;
+    }
+    #emp-image img {
+        height: 242px;
+    }
+    #emp-personal td:nth-child(2) {
+        padding-left: 150px;
+    }
+    #emp-company td:nth-child(2) {
+        padding-left: 60px;
+    }
+    #edit {
+        margin-left: 0px;
+        margin-top: -570;
+        margin-right: 450px;
+    }
+    #personalData {
+        margin-left: 90px;
+    }
+}
+
+#emp-profile {
+    position: fixed;
+}
+
+/*#wrapper {
+    margin-top: 203px;
+    position: fixed;
+}*/
+
+@media(max-width:768px) {
+    /*#wrapper {
+        margin-top: 203px;
+    }*/
+    #emp-personal td:nth-child(1) {
+        padding-right: 100px;
+        padding-left: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #emp-personal td:nth-child(2) {
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #emp-company td:nth-child(1) {
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #emp-company td:nth-child(2) {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #personalCtrl {
+        margin-left: -80px;
+    }
+    #edit {
+        float: right;
+        border: 0px;
+        margin-right: 250px;
+        margin-top: -280px;
+    }
+}
+
+#side-content {
+    margin-top: -750px;
+}
+
+@media(max-width:766px) {
+    #wrapper {
+        margin-top: 203px;
+    }
+    #emp-personal td:nth-child(1) {
+        padding-right: 100px;
+        padding-left: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #emp-personal td:nth-child(2) {
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+    }
+    #emp-company td:nth-child(1) {
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #emp-company td:nth-child(2) {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+    }
+    #personalCtrl {
+        margin-left: -80px;
+    }
+    #edit {
+        float: right;
+        border: 0px;
+        margin-right: 250px;
+        margin-top: -550;
+    }
+}
+
+@media(max-width:926px) {
+    #wrapper {
+        margin-top: 203px;
+    }
+    #emp-personal td:nth-child(1) {
+        padding-right: 100px;
+        padding-left: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #emp-personal td:nth-child(2) {
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #emp-company td:nth-child(1) {
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #emp-company td:nth-child(2) {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #personalCtrl {
+        margin-left: -80px;
+    }
+    #edit {
+        float: right;
+        border: 0px;
+        margin-right: 250px;
+        margin-top: -280px;
+    }
+}
+
+#editingpad {
+    white-space: nowrap;
+    margin-left: 55px;
+}
+/*=====adding=====*/
+ #personalData{
+            margin-top: 0px;
+            height: 275px;
+ }
+@media(max-width:768px){
+    #formsize{
+  overflow-y: scroll;
+     height: 320px;
+    margin-top: 10px;
+ }
+
+ #personalData{
+             margin-left: 80px;
+ }
+
+}
+.table-condensed>tbody>tr>td{
+    padding:0px!important;
+}
+#emp-profile{
+    overflow:hidden;
+}
+
+.editable-empty{
+    font-style: italic;
+    color:#3B5372!important;
+    text-decoration: none
+}
+
+
+
+@media(max-width:468px){
+    #emp-info{
+    margin-top: 1px;
+    margin-left: 0px;
+}
+#emp-profile{
+    top: 45px;
+    padding-top: 20px;
+}
+#line{
+    top: 530px;
+    margin-top: 0px!important;
+}
+#emp-image{
+    margin-left:60px!important;
+}
+#emp-personal td:nth-child(2){
+    padding-left: 70px!important;
+}
+#emp-company td:nth-child(2){
+    padding-left: 10px!important;
+}
+}
+
+#icon{
+    width:10px;
+
+
+    border: 0px solid transparent!important;
+}
+
+#menu-toggle .btn-default:hover{
+    border: 0px solid transparent!important;
+    background-color: #FFFFFF!important;
+}
+#menu-toggle .btn-default:active{
+    border: 0px solid transparent!important;
+    background-color: #FFFFFF!important;
+}
+#menu-toggle .btn{
+        padding: 6px 6px!important;
+        border: 0px solid transparent!important;
+        background-color: #FFFFFF!important;
+}
+.selected {
+    border-bottom: solid 2px #3B5372;
+  }
+
+  .navbar-default .navbar-nav>.active>a{
+      background-color: transparent!important;
+  }
+#padrow{
+    margin-top: 0px;
+}
+
+#dashrow{
+          margin-left: 15px!important;
+    margin-right: -100px!important;
+  }
+
+
+  #emp-name{
+      color:#3B5372;
+      font-weight:bold;
+      font-family:Ionicons;
+      font-size:20px;
+  }
+
+  /*#emp-id{
+      color:#3B5372;
+      font-weight:bold;
+  }*/

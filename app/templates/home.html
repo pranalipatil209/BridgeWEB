@@ -1,0 +1,57 @@
+<div ng-controller="homeCtrl">
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1" id="navbar-toggle">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="nav-brand">
+            <img src="images/logo.png" width="43px" height="47px" class="logo">
+            <span>FundooHR </span>
+            </img>
+        </div>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right" id="top-nav">
+            <li><a class="date"><span class="glyphicon glyphicon-time"></span>
+                <span>{{ today | date : "dd,MMMM y" }} </span> </a>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle name" data-toggle="dropdown" id="name">
+                    <img src="images/user.png" width="20px" height="20px"/><span class="fullname">{{name}}</span>
+                    <span class="caret"></span></a>
+                <ul class="dropdown-menu" id="block">
+                    <li class="mail">{{userEmail}}</li>
+                    <li ng-if="isAuth()">
+                        <span ng-click="logout()" id="logout">
+                            <img src="images/logout web.png" width="12px" height="14px"/><b>&nbsp;Logout</b>
+                        </span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <div class="row">
+
+            <ul class="nav navbar-nav " id="nav-content">
+                <li ng-class="{active: isActive('/dashboard')}"><a ui-sref="dashboard">Home</a></li>
+                <li ng-class="{active: $state.includes('engineer')}"><a ui-sref="engineer.search">Engineers</a></li>
+                <li
+                        ng-class="{active: $state.includes('attendance')}"><a ui-sref="attendance.month">Attendance
+                </a></li>
+                <li ng-class="{active: isActive('/atten')}"><a ui-sref="atten">Clients</a></li>
+
+                <li><a ui-sref="Reports">Reports</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- /.navbar-collapse -->
+
+    <!-- /.container-fluid -->
+</nav>
+</div>

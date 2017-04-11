@@ -1,0 +1,32 @@
+<div id="login-page">
+    <div class="card" id="login-card">
+        <div class="login-box">
+            <img src="images/logo.png" />
+            <div class="login">
+                <div>Login</div>
+                <form name="form" method="post" ng-submit="login()" role="form">
+                    <md-input-container class="md-block" id="input1">
+                        <label>Email</label>
+                        <input type="text" name="email" ng-model="user.username" required md-no-asterisk ng-pattern="email" />
+                    </md-input-container>
+                    <md-input-container class="md-block" id="input2">
+                        <label id="pwd-label">Password</label>
+                        <input type="password" name="password" ng-model="user.password" required id="password" md-no-asterisk />
+                    </md-input-container>
+                    <button ng-disabled="form.$invalid || dataLoading" type="submit" class="md-raised">Login </button>
+                    <span class="loader">
+                        <!--Loader is displayed until get response from server-->
+                            <center>
+                                <img id = "load" ng-if="dataLoading" src="images/loader.gif" width="25px"
+                                     height="25px" />
+                            </center>
+                    </span><br>
+                    <!--Error message if login failed-->
+                    <span id="errMsg" ng-hide="dataLoading" class="text-danger">{{ error }}</span><br>
+                    <!--<div>Login</div>-->
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>

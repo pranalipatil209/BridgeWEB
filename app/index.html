@@ -1,0 +1,89 @@
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title> FundooHr </title>
+    <!--css links-->
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/angular-xeditable/dist/css/xeditable.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/ng-dialog/css/ngDialog.css">
+    <link rel="stylesheet" href="bower_components/ng-dialog/css/ngDialog-theme-default.css">
+    <link rel="stylesheet" href="bower_components/ng-dialog/css/ngDialog-theme-plain.css">
+    <link rel="stylesheet" href="bower_components/ng-dialog/css/ngDialog-custom-width.css">
+
+
+
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/less" href="css/calendar.css" />
+
+    <link rel="stylesheet" href="css/simple-sidebar.css">
+    <link rel="stylesheet" href="css/attendance.css">
+</head>
+<body ng-app="mainApp">
+<div class="canvas">
+    <div ui-view="nav"></div>
+
+    <div class="container">
+    <div ui-view="home"></div>
+    </div>
+</div>
+</body>
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-animate/angular-animate.min.js"></script>
+<script src="bower_components/angular-aria/angular-aria.min.js"></script>
+<script src="bower_components/angular-material/angular-material.min.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="bower_components/angular-local-storage/dist/angular-local-storage.min.js"></script>
+<script src="bower_components/satellizer/dist/satellizer.min.js"></script>
+<script src="bower_components/angular-xeditable/dist/js/xeditable.min.js" charset="utf-8"></script>
+<script src="bower_components/less/dist/less.min.js" charset="utf-8"></script>
+<script src="bower_components/moment/moment.js" charset="utf-8"></script>
+<script src="bower_components/ng-dialog/js/ngDialog.js"></script>
+<script src="bower_components/ng-dialog/js/ngDialog.min.js"></script>
+
+
+<script src="app.js"></script>
+
+<!--controllers used-->
+<script src="controller/loginCtrl.js"></script>
+<script src="controller/homeCtrl.js"></script>
+<script src="controller/dashboardCtrl.js"></script>
+<script src="controller/engineerCtrl.js"></script>
+<script src="controller/attendanceSummary.js"></script>
+<script src="controller/UnmarkedEmpCtrl.js"></script>
+<script src="controller/falloutLeaveCtrl.js"></script>
+
+
+<!-- Engineer Related Controllers -->
+<script src="controller/engineer/engineerCtrl.js"></script>
+<script src="controller/engineer/attendanceCtrl.js"></script>
+<script src="controller/engineer/bankCtrl.js" charset="utf-8"></script>
+<script src="controller/engineer/hrDataCtrl.js" charset="utf-8"></script>
+<script src="controller/engineer/personalCtrl.js" charset="utf-8"></script>
+<script src="controller/engineer/profileCtrl.js" charset="utf-8"></script>
+<script src="controller/engineer/trackingCtrl.js" charset="utf-8"></script>
+
+<!-- Services  -->
+<script src="services/restservice.js"></script>
+<script src="services/util.js"></script>
+
+<!-- Directive -->
+<script src="directives/attendence.js" charset="utf-8"></script>
+<script src="directives/calendarDirective.js" charset="utf-8"></script>
+<script src="directives/cardDir.js" charset="utf-8"></script>
+<script src="directives/focus.js" charset="utf-8"></script>
+<script src="directives/cardInfo.js"></script>
+<script src="directives/attendanceSummaryCalandar.js"></script>
+<script src="directives/emailAlert.js"></script>
+
+<script src="config.js"></script>
+
+</html>

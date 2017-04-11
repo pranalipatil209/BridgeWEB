@@ -1,0 +1,86 @@
+<div class="dash" ><!-- -->
+  <div ><!-- class="row" -->
+    <div id="emp-profile" ng-init="getEmployeeData();">
+      <div id="emp-details">
+          <div id="emp-image">
+              <!-- <img src="images/bprofile.jpg" alt="{{empdetails.employeeName}}"> -->
+              <img ng-src="{{empdetails.imageUrl}}" alt="{{empdetails.employeeName}}">
+              <!--<img ng-src="images/logo.png"/>-->
+          </div>
+          <div id="emp-info">
+              <div id="emp-id">
+                  <h4 id="emp-name">
+                      {{empdetails.employeeName}}</h4>
+                  <h4>
+                      <span style="color:#3B5372;font-weight:bold;">Id</span> <span style="color:#3B5372;">{{empdetails.engineerId}}</span>
+                  </h4>
+              </div>
+              <div id="emp-dataTable">
+                  <table id="emp-personal">
+                      <tr>
+                          <td>Status</td>
+                          <td>{{empdetails.employeeStatus}}</td>
+                      </tr>
+                      <tr>
+                          <td>Company</td>
+                          <td>{{empdetails.company}}</td>
+                      </tr>
+                      <tr>
+                          <td>Mobile</td>
+                          <td>{{empdetails.mobile}}</td>
+                      </tr>
+                      <tr>
+                          <td>EmailId</td>
+                          <td>{{empdetails.emailId}}</td>
+                      </tr>
+                  </table>
+                  <table id="emp-company">
+                      <tr>
+                          <td>BL Start Date</td>
+                          <td>{{empdetails.blStartDate}}</td>
+                      </tr>
+                      <tr>
+                          <td>Company Start Date</td>
+                          <td>{{empdetails.companyJoinDate}}</td>
+                      </tr>
+                      <tr>
+                          <td>Company Leave Date</td>
+                          <td>{{empdetails.companyLeaveDate}}</td>
+                      </tr>
+                      <tr>
+                          <td>Leaves Taken</td>
+                          <td>{{empdetails.leaveTaken}}</td>
+                      </tr>
+                  </table>
+              </div>
+              <!--end of emp-dataTable-->
+          </div>
+          <!--end of emp-info-->
+      </div>
+      <!--end of emp-details-->
+  </div>
+  <div id="line"> </div>
+</div>
+<div class="">
+  <div class="col-lg-3 col-sm-3 col-xs-2">
+      <div id="sidebar-wrapper" >
+              <nav class="navbar navbar-inverse sidebar" role="navigation">
+                      <!-- Collect the nav links, forms, and other content for toggling -->
+                      <!-- <span class="pull-right glyphicon glyphicon-calendar"></span> -->
+                      <!-- <span class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span> -->
+                  <ul class="nav navbar-nav">
+                      <li ng-class="{active: $state.includes('engineer.engineerData.attendance')}"><a ui-sref="engineer.engineerData.attendance"><strong>Attendance</strong><i class=" pull-right fa fa-calendar fa-lg" aria-hidden="true"></i></a></li>
+                      <li ng-class="{active: $state.includes('engineer.engineerData.personal')}"><a ui-sref="engineer.engineerData.personal"><strong>Personal</strong><span class="pull-right showopacity glyphicon glyphicon-user"></span></a></li>
+                      <li ng-class="{active: $state.includes('engineer.engineerData.profile')}"><a ui-sref="engineer.engineerData.profile"><strong>Profile</strong><i class="pull-right fa fa-camera-retro fa-lg"></i></a></li>
+                      <li ng-class="{active: $state.includes('engineer.engineerData.hrData')}"><a ui-sref="engineer.engineerData.hrData"><strong>HR Data</strong><i class="pull-right fa fa-address-book-o" aria-hidden="true"></i></a></li>
+                      <li ng-class="{active: $state.includes('engineer.engineerData.bank')}"><a ui-sref="engineer.engineerData.bank"><strong>Bank</strong><i class="pull-right showopacity fa fa-university" aria-hidden="true"></i></a></li>
+                      <li ng-class="{active: $state.includes('engineer.engineerData.tracking')}"><a ui-sref="engineer.engineerData.tracking"><strong>Tracking</strong><i class="pull-right showopacity fa fa-bandcamp" aria-hidden="true"></i></a></li>
+                  </ul>
+              </nav>
+      </div>
+  </div>
+  <div class="col-lg-9 col-sm-9 col-xs-9">
+    <div class="custom-margin" ui-view></div>
+  </div>
+</div>
+<!-- <script src="js/toggle.js"></script> -->

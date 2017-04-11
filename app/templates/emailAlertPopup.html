@@ -1,0 +1,20 @@
+<span data-toggle="modal" data-target="#myModal"><img src="../images/email.png" alt="Email"></span>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                <p>Do you want to send email alert?</p>
+                <button class="btn cancel" data-dismiss="modal">Cancel</button>
+                <button class="btn yes" ng-click="sendEmail(type)" data-dismiss="modal">Yes</button>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<toaster-container></toaster-container>

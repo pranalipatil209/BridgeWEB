@@ -1,0 +1,39 @@
+<div id="personalCtrl">
+    <form editable-form name="tableform" onaftersave="saveTable()" id="formsize" ng-init="getTrackingData();">
+        <table class="table-condensed" id="personalData">
+            <tr>
+                <td id="spantd">Tech Stack</td>
+                <td><span editable-text="trackingData.techStack" e-focus-me="trackingData.isFocused" e-form="tableform">{{trackingData.techStack || '--'}}</span></td>
+            </tr>
+            <tr>
+                <td id="spantd">BridgeLabz Start Date</td>
+                <td><span editable-text="trackingData.bridgelabzStartDate" e-focus-me="trackingData.isFocused" e-form="tableform">{{trackingData.bridgelabzStartDate || '--' }}</span></td>
+            </tr>
+            <tr>
+                <td id="spantd">BridgeLabz End Date</td>
+                <td><span editable-text="trackingData.bridgelabzEndDate" e-focus-me="trackingData.isFocused" e-form="tableform">{{trackingData.bridgelabzEndDate || '--' }}</span></td>
+            </tr>
+            <tr>
+                <td id="spantd">Current Week</td>
+                <td><span editable-text="trackingData.currentWeek" e-focus-me="trackingData.isFocused" e-form="tableform">{{trackingData.currentWeek || '--' }}</span></td>
+            </tr>
+            <tr>
+                <td id="spantd">Number of Weeks Left</td>
+                <td><span editable-text="trackingData.numberOfWeeksLeft" e-focus-me="trackingData.isFocused" e-form="tableform">{{trackingData.numberOfWeeksLeft|| '--' }}</span></td>
+            </tr>
+            <tr>
+                <td id="spantd">Week1</td>
+                <td><span editable-text="trackingData.week1" e-focus-me="trackingData.isFocused" e-form="tableform">{{trackingData.week1 || '--' }}</span></td>
+            </tr>
+        </table>
+        <!-- buttons -->
+        <div id="editingpad">
+            <button id="save" type="submit" ng-show="tableform.$visible" ng-disabled="tableform.$waiting" class="btn btn-primary">save</button>
+            <button id="edit" type="button" class="btn btn-default" ng-show="!tableform.$visible" ng-click="tableform.$show()">
+    <span  id="symbol" class="glyphicon glyphicon-pencil"></span>
+    </button>
+            <button type="button" ng-show="tableform.$visible" ng-disabled="tableform.$waiting" ng-click="tableform.$cancel()" class="btn btn-default">cancel
+    </button>
+        </div>
+    </form>
+</div>

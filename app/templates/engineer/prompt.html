@@ -1,0 +1,20 @@
+<md-dialog>
+    <form ng-cloak>
+        <md-dialog-content>
+            <div class="md-dialog-content" id="popupStatus">
+                <label style="float:right;position:relative;margin: -15px;">
+            <md-button class="md-icon-button" ng-click="close()">
+              <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon>
+            </md-button>
+          </label>
+                <input ng-show="show" type="time" ng-model="punchIn" >
+                <input ng-show="show" type="time" ng-model="punchOut" >
+                <md-input-container ng-hide="show">
+                    <label>Reason</label>
+                    <input ng-model="reason">
+                </md-input-container>
+            <md-button ng-click="save()" class="md-primary">Save</md-button>
+            </div>
+        </md-dialog-content>
+    </form>
+</md-dialog>

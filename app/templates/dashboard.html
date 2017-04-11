@@ -1,0 +1,82 @@
+<div class="dash" ng-init="dashPage()">
+    <div class="row">
+        <!-- Card Projects -->
+        <!--{{dashData}}-->
+        <div class="col-sm-6  col-md-4 col-xs-12" id="column" ng-repeat="(key,value) in dashData"
+             ng-if="key!=='timeStamp'">
+            <div class="card" id="key">
+                <div class="header">
+                    <h4 class="text">{{split(key)}}
+                        <span class="card-action1" ng-if="key=='attendanceSummary'">
+                            <a ui-sref="attendance.month">
+                                <img class="toc1" src="images/summary.png">
+                            </a>
+                            <span class="tooltiptext">view {{split(key)}} </span>
+                        </span>
+                        <span class="card-action1" ng-if="key=='attendanceFallout'">
+                            <a ui-sref="attendance.fallout">
+                                <img class="toc1" src="images/summary.png">
+                            </a>
+                            <span class="tooltiptext">view {{split(key)}} </span>
+                        </span>
+                        <span class="card-action1" ng-if="key=='leaveSummary'">
+                            <a ui-sref="attendance.leave">
+                                <img class="toc1" src="images/summary.png">
+                            </a>
+                            <span class="tooltiptext">view {{split(key)}} </span>
+                        </span>
+                    </h4>
+                </div>
+                <div ng-if="key=='attendanceSummary'" id="dash-attendanceSummary">
+                    <center>
+                        <div id="dashMark">
+                            <div id="dashMarked">
+                                <div id="gcircle">{{value.marked}}</div>
+                                <div id="marked">Marked</div>
+                            </div>
+                            <div id="dashUnmarked">
+                                <div id="rcircle">{{value.unmarked}}</div>
+                                <div id="unmarked">Unmarked</div>
+                            </div>
+                        </div>
+                    </center>
+                    <div class="aSummary-date">{{previous|date:" dd MMMM yyyy"}}</div>
+                </div>
+                <div ng-if="key=='attendanceFallout'" id="dash-attendanceFallout">
+                    <center>
+                        <div id="falloutEmp">{{value.falloutEmployee}}</div>
+                        <div id="totalEmp">out of {{value.totalEmployee}}</div>
+                        <div class="aFallout-date">{{previous|date:" MMMM yyyy"}}</div>
+                    </center>
+                </div>
+                <div ng-if="key=='leaveSummary'" id="dash-leaveSummary">
+                    <center>
+                        <div id="empLeave">{{value.leave}}</div>
+                        <div id="uptilLeave">uptil</div>
+                        <div class="lSummary-date">{{previous|date:"dd MMMM yyyy"}}</div>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card Projects -->
+        <div class="col-sm-6  col-md-4 col-xs-12" id="column" ng-repeat="x in dashBoardData">
+            <div class="card">
+                <div class="header">
+                    <span class="card-action2">
+                        <a ng-if="x==='Engineers'" ui-sref="home.engineers">
+                            <img class="toc" src="images/summary.png">
+                            </img></a>
+                        <a ng-if="x==='Clients'">
+                            <img class="toc" src="images/summary.png">
+                            </img></a>
+                         <a ng-if="x==='Reports'">
+                        <img class="toc" src="images/summary.png">
+                             </img></a>
+                        <span class="tooltiptext">view {{x}} </span>
+                    </span>
+                </div>
+                <div class="text1">{{x}}</div>
+            </div>
+        </div>
+    </div>

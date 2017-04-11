@@ -1,0 +1,62 @@
+<div id="eng" ng-init="engPage()">
+    <div class="row">
+        <!--search box-->
+        <div class="col-md-12">
+            <div class="input-group" id="adv-search">
+                <input type="text" class="form-control" placeholder="Search" ng-model="search" />
+                <div class="input-group-btn">
+                    <div class="btn-group" role="group">
+                        <div class="dropdown dropdown-lg">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="search"><span class="caret"></span></button>
+                            <div class="dropdown-menu dropdown-menu-right" role="menu" id="filter_menu">
+                                <form class="form-horizontal" role="form" ng-submit="filterFormData()">
+                                    <div class="form-group">
+                                        <label>Name</label>
+                                        <input class="form-control" type="text" ng-model="filters.employeeName" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Company</label>
+                                        <input class="form-control" type="text" ng-model="filters.company" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Status</label>
+                                        <input class="form-control" type="text" ng-model="filters.employeeStatus" />
+                                    </div>
+                                    <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" ></span></button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="btn btn-primary" ng-disabled="disabled" aria-disabled="true" ><span class="glyphicon glyphicon-search" id="search-symbol"></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end of search box-->
+    </div>
+</div>
+<div class="display">
+
+    <div class="anchor">
+        <ul class="alphabets" ng-repeat="x in alphabet ">
+            <li><a ng-click="scrollTo(x)" class="{{x}}">{{x}}</a></li>
+        </ul>
+    </div>
+    <div class="profile">
+        <div class="loader-eng">
+            <img ng-if="dataLoading" src="images/loader.gif" width="50px" height="50px" />
+        </div>
+        <section ng-repeat="(k,v) in profile track by $index" id="{{k}}">
+            <div class="row" id="section-row">
+                <div ng-repeat="(key,info) in v  | filter:search" id="card-col">
+                    <card-info data="info"></card-info>
+                </div>
+            </div>
+            <!--end of row-->
+        </section>
+        <!--end of section-->
+        <!--Display Error-->
+        <div class="error" ng-if="errorpage">
+            <span> Not Found !!!!!</span>
+        </div>
+    </div>
+</div>

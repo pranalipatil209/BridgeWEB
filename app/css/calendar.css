@@ -1,0 +1,103 @@
+@header-month-height: 50px;
+.header-month {
+    height: @header-month-height;
+    font-size: 30px;
+    color: #3b5372;
+>i.fa-angle-right {
+     text-align: right;
+ }
+>i.fa-angle-left {
+     text-align: left;
+ }
+span {
+    width: auto;
+.border-box;
+    text-align: center;
+    color: inherit;
+}
+}
+
+.header-month{
+    margin-top: 150px;
+}
+
+.month{
+    padding : 30px;
+}
+
+.counts{
+    font-family: MyriadPro-Light;
+    padding-top: 15px;
+}
+
+.date{
+    padding-top: 3px;
+}
+
+.vertical-centre (@height) {
+    height: @height;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.border-box {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+@media (min-width: 725px) {
+    .attendanceSummaryCalendar {
+        margin-left: 100px;
+        width: 65%;
+    }
+    .counts{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 724px) {
+    .attendanceSummaryCalendar {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .counts{
+        font-size: 12px;
+    }
+}
+
+@border-colour: #d8d1c7;
+
+.attendanceSummaryCalendar {
+    margin: auto;
+    display: table;
+    background: white;
+    font-family: MyriadPro-Light;
+    border: solid 4px @border-colour;
+    margin-top: 30px;
+    border-radius: 8px;
+    border-width: #18880d 3px;
+    border-color: #6fb8d9;
+@spacing: 5px;
+@icon-width: 20px;
+div.week {
+    float: left;
+    width: 100%;
+    border-top: solid 1px @border-colour;
+span.day {
+    float: left;
+    width: 100%/7;
+.border-box;
+    border-left: solid 2px @border-colour;
+    font-size: 17px;
+    font-family: MyriadPro-Light;
+    text-align: center;
+.vertical-centre(70px);
+    background: white;
+    cursor: pointer;
+&.different-month {
+     color: white;
+ }
+}
+}
+}
+

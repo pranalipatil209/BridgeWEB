@@ -1,0 +1,16 @@
+<!--displays profile info with click function-->
+<div class="card" id="info-card">
+  <a ui-sref="engineer.engineerData.attendance({engineerId:data.engineerId})">
+    <div  class=profile-photo>
+            <!--<img ng-src="{{data.imageUrl}}" />-->
+            <img ng-src="http://192.168.0.14:3000/image2.jpg" />
+    </div>
+    <span class="profile-info">
+            <span class="empname">{{data.employeeName}}</span><br>
+            <span class="empstatus">{{data.employeeStatus}}</span><br>
+            <span class="company">{{data.company}}</span><br>
+            <span class="mobile">Mob.{{data.mobile}}</span><br>
+            <span class="email">{{data.emailId}}</span><br>
+    </span>
+  </a>
+</div>

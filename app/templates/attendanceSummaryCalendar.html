@@ -1,0 +1,39 @@
+<div ng-cloak>
+    <div class="header-month">
+    <i class="fa fa-angle-left" ng-click="previous()"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+    <span id="month">{{month.format("MMMM, YYYY")}}</span>&nbsp;&nbsp;&nbsp;&nbsp;
+    <i class="fa fa-angle-right" ng-click="next()"></i>
+</div>
+
+
+<div class="attendanceSummaryCalendar">
+    <div class="week names" style="height:25px;">
+        <span class="day">Sun</span>
+        <span class="day">Mon</span>
+        <span class="day">Tue</span>
+        <span class="day">Wed</span>
+        <span class="day">Thu</span>
+        <span class="day">Fri</span>
+        <span class="day">Sat</span>
+    </div>
+    <div class="week" ng-repeat="week in weeks track by $index">
+        <!-- If -->
+        <span class="day" ng-repeat="day in week.days" ng-if="day.unmarked==='-'" >
+        <span>{{day.number}} <br/>
+        <label  ng-style="{color:(day.unmarked==='-'?'#18880d':'#E35656')}" class="counts">{{day.unmarked}}<span
+                ng-if="day.number">/</span>{{day.totalEmployee}}
+        </label>
+        </span>
+        </span>
+        <!-- else -->
+        <span class="day" ng-repeat="day in week.days" ng-if="day.unmarked!='-'"
+              ng-click="clickDay(day.date)">
+            <span>{{day.number}}<br/>
+        <label  ng-style="{color:(day.unmarked==='-'?'#18880d':'#E35656')}" class="counts">{{day.unmarked}}<span
+                ng-if="day.number">/</span>{{day.totalEmployee}}
+        </label>
+        </span>
+        </span>
+    </div>
+</div>
+</div>

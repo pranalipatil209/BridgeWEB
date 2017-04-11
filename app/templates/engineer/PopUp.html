@@ -1,0 +1,28 @@
+<md-dialog>
+    <form ng-cloak>
+        <md-dialog-content>
+            <div class="md-dialog-content" id="popupStatus">
+                <label style="float:right;position:relative;margin: -15px;">
+               <md-button class="md-icon-button" ng-click="cancel()">
+          <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon></md-button>
+          </label>
+          <table class="popupTable" ng-hide="present">
+              <tr>
+                  <td>Reason</td>
+                  <td>{{reason}}</td>
+              </tr>
+          </table>
+          <table class="popupTable" ng-show="present">
+              <tr>
+                  <td>InTime</td>
+                  <td>{{punchIn}}</td>
+              </tr>
+              <tr>
+                  <td>OutTime</td>
+                  <td>{{punchOut}}</td>
+              </tr>
+          </table>
+            </div>
+        </md-dialog-content>
+    </form>
+</md-dialog>
