@@ -1,5 +1,5 @@
 angular.module('mainApp').service('restService', function ($http, $log, $q, localStorageService) {
-    this.baseUrl = "http://fundoohr.bridgelabz.com/";
+    this.baseUrl = "http://fundoohr.bridgelabz.com/api";
     var self = this;
 
     //    function for httpRequest for all methods

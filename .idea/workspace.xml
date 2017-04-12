@@ -2,316 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a893a643-dd27-4fd9-a2f5-18e54f11a61a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/AppleGothic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/C.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/L.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/ion-alert.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/ion-checkmark-round - Ionicons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/ion-checkmark-round.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/previous.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/propic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/toc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/font/Myriad-Pro-Light_31642 (1).ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/font/aplegothic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/font/lucida-grande-bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/font/myriad-set-pro-ultralight-5878628c2a32d (1).ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/font/ufonts.com_lucida-grande-bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/font/ufonts.com_lucida-grande-bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/C.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/Group.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/L.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/art_track - material.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/bprofile.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/dd_arrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/email.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/emp1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/emp2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/emp22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/emp3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/emp4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/emp5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/face - material.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/gprofile.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/ic_toc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/ion-alert.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/ion-android-compass - Ionicons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/ion-card - Ionicons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/ion-checkmark-round.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logout web.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logout.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/spin.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/summary.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/docArrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/list_control_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/attendance.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/UnmarkedEmpCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/atten.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/attendanceSummary.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/dashboardCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/engineer/attendanceCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/engineer/bankCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/engineer/engineerCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/engineer/hrDataCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/engineer/personalCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/engineer/profileCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/engineer/trackingCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/engineerCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/falloutLeaveCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/homeCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/loginCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/attendance.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/calendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/font.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/simple-sidebar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/directives/attendanceSummaryCalandar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/directives/attendence.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/directives/calendarDirective.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/directives/cardDir.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/directives/cardInfo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/directives/emailAlert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/directives/focus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/android.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/cake.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/copy.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/copy2.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/facebook.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/favorite.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/github.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/hangout.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_access_time_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_arrow_back_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_arrow_up_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_build_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_card_giftcard_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_chevron_right_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_close_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_code_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_comment_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_email_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_euro_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_insert_drive_file_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_label_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_launch_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_menu_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_more_vert_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_ondemand_video_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_people_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_person_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_phone_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_photo_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_place_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_play_arrow_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_play_circle_fill_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_refresh_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_school_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/ic_visibility_24px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/launch.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/mail.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/menu.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/message.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/more_vert.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/octicon-repo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/separator.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/share-arrow.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/tabs-arrow.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/toggle-arrow.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/twitter.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/upload.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/absentPopUp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/cardInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/presentPopUp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/restservice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/attendanceSummary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/attendanceSummaryCalendar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/dashboard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/emailAlertPopup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/engineer/PopUp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/engineer/attendance.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/engineer/bank.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/engineer/calendar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/engineer/card.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/engineer/dropdown.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/engineer/engineer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/engineer/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/engineer/hrData.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/engineer/personal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/engineer/profile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/engineer/prompt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/engineer/tracking.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/engineers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/showFallout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/showLeaveSummary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/unmarkedEmp.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/AppleGothic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/C.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/L.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/attendance.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ion-alert.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ion-checkmark-round - Ionicons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ion-checkmark-round.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/previous.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/propic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/toc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/UnmarkedEmpctrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/atten.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/attendanceSummary.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/dashboardCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/engineer/attendanceCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/engineer/bankCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/engineer/engineerCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/engineer/hrDataCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/engineer/personalCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/engineer/profileCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/engineer/trackingCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/engineerCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/falloutLeaveCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/homeCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/loginCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/Calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/attendance.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/simple-sidebar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/directives/attendanceSummaryCalandar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/directives/attendence.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/directives/calendarDirective.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/directives/cardDir.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/directives/cardInfo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/directives/emailAlert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/directives/focus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/Myriad-Pro-Light_31642 (1).ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/aplegothic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/lucida-grande-bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/myriad-set-pro-ultralight-5878628c2a32d (1).ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/ufonts.com_lucida-grande-bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/ufonts.com_lucida-grande-bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/C.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/L.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/art_track - material.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/bprofile.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/dd_arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/email.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/emp1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/emp2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/emp22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/emp3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/emp4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/emp5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/face - material.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gprofile.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ic_toc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ion-alert.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ion-android-compass - Ionicons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ion-card - Ionicons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ion-checkmark-round.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logout web.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logout.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/menu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/spin.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/summary.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/user.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/docArrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/android.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/cake.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/copy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/copy2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/facebook.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/favorite.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/github.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/hangout.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_access_time_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_arrow_back_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_arrow_up_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_build_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_card_giftcard_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_chevron_right_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_close_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_code_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_comment_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_email_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_euro_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_insert_drive_file_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_label_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_launch_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_menu_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_more_vert_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_ondemand_video_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_people_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_person_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_phone_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_photo_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_place_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_play_arrow_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_play_circle_fill_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_refresh_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_school_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/ic_visibility_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/launch.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/list_control_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/mail.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/menu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/message.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/more_vert.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/octicon-repo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/separator.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/share-arrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tabs-arrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/toggle-arrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/twitter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/upload.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/absentPopUp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/cardInfo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/presentPopUp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/restservice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/attendanceSummary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/attendanceSummaryCalendar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/dashboard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/emailAlertPopup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/engineer/PopUp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/engineer/attendance.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/engineer/bank.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/engineer/calendar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/engineer/card.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/engineer/dropdown.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/engineer/engineer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/engineer/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/engineer/hrData.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/engineer/personal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/engineer/profile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/engineer/prompt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/engineer/tracking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/engineers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/showFallout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/showLeaveSummary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/unmarkedEmp.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/services/restservice.js" afterPath="$PROJECT_DIR$/app/services/restservice.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -342,18 +33,18 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="135">
               <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="restservice.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="restservice.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/services/restservice.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="51" lean-forward="false" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+            <state relative-caret-position="15">
+              <caret line="1" column="54" lean-forward="false" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -362,7 +53,7 @@
       <file leaf-file-name="loginCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controller/loginCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-324">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -372,7 +63,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="900">
               <caret line="60" column="22" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
               <folding />
             </state>
@@ -382,17 +73,17 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="195">
               <caret line="13" column="125" lean-forward="false" selection-start-line="13" selection-start-column="125" selection-end-line="13" selection-end-column="125" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
+            <state relative-caret-position="45">
               <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
@@ -407,10 +98,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/services/restservice.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/templates/login.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/services/restservice.js" />
       </list>
     </option>
   </component>
@@ -420,12 +111,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="713" />
   </component>
@@ -444,25 +131,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fundooHR_web_production" />
+              <option name="myItemId" value="BridgeWEB" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fundooHR_web_production" />
+              <option name="myItemId" value="BridgeWEB" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fundooHR_web_production" />
+              <option name="myItemId" value="BridgeWEB" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fundooHR_web_production" />
+              <option name="myItemId" value="BridgeWEB" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -470,10 +158,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BridgeWEB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BridgeWEB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -577,32 +282,33 @@
       <workItem from="1491647880874" duration="45000" />
       <workItem from="1491887786409" duration="763000" />
       <workItem from="1491917307488" duration="609000" />
+      <workItem from="1492003755610" duration="43000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5700000" />
+    <option name="totallyTimeSpent" value="5743000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1280" height="713" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="713" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.68944097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,6 +340,62 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/restservice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="51" lean-forward="false" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/loginCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="22" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="125" lean-forward="false" selection-start-line="13" selection-start-column="125" selection-end-line="13" selection-end-column="125" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -686,23 +448,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="135">
           <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/restservice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="51" lean-forward="false" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/loginCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -710,7 +464,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="900">
           <caret line="60" column="22" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
           <folding />
         </state>
@@ -718,7 +472,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="195">
           <caret line="13" column="125" lean-forward="false" selection-start-line="13" selection-start-column="125" selection-end-line="13" selection-end-column="125" />
           <folding />
         </state>
@@ -726,8 +480,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
+        <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/restservice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="54" lean-forward="false" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
           <folding />
         </state>
       </provider>
